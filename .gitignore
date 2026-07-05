@@ -40,4 +40,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.vercel
+# playwright artifacts
+.playwright-mcp/
+
+# build plan (original reference doc, not part of the app)
+/vieent-clone-build-plan.md
+
+# debug snapshots
+*.snapshot.md
