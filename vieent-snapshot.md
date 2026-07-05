@@ -1,0 +1,411 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link "V Vieent" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: V
+        - text: Vieent
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Features" [ref=e9] [cursor=pointer]:
+            - /url: "#features"
+        - listitem [ref=e10]:
+          - link "Dashboard" [ref=e11] [cursor=pointer]:
+            - /url: "#dashboard"
+        - listitem [ref=e12]:
+          - link "Testimonials" [ref=e13] [cursor=pointer]:
+            - /url: "#testimonials"
+        - listitem [ref=e14]:
+          - link "Pricing" [ref=e15] [cursor=pointer]:
+            - /url: "#pricing"
+        - listitem [ref=e16]:
+          - link "Blog" [ref=e17] [cursor=pointer]:
+            - /url: /blog
+      - generic [ref=e18]:
+        - button "Log in" [ref=e19]
+        - button "Get started" [ref=e20]
+      - button "Open menu" [ref=e21]:
+        - img [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Now in public beta
+        - heading "Turn your data into actionable insights" [level=1] [ref=e29]
+        - paragraph [ref=e30]: Real-time analytics, beautiful dashboards, and smart alerts — everything you need to understand and grow your business.
+        - generic [ref=e31]:
+          - button "Start free trial" [ref=e32]:
+            - text: Start free trial
+            - img [ref=e33]
+          - button "Watch demo" [ref=e35]
+        - paragraph [ref=e36]: No credit card required · 14-day free trial
+      - generic [ref=e38]:
+        - generic [ref=e39]: dashboard.vieent.com
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - img [ref=e43]
+              - paragraph [ref=e45]: 128.4K
+              - paragraph [ref=e46]: Total Views
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - paragraph [ref=e51]: +12.5%
+              - paragraph [ref=e52]: Growth
+            - generic [ref=e53]:
+              - img [ref=e54]
+              - paragraph [ref=e56]: 3,842
+              - paragraph [ref=e57]: Active Users
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: Monthly Revenue
+              - img [ref=e60]
+            - generic [ref=e63]: JanJunDec
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "Everything you need to understand your data" [level=2] [ref=e67]
+        - paragraph [ref=e68]: Powerful features that make data analysis accessible for every team.
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - img [ref=e73]
+            - heading "Real-time dashboards" [level=3] [ref=e75]
+            - paragraph [ref=e76]: Visualize your data the moment it arrives. Build custom dashboards with drag-and-drop widgets, filter by date range, and share them with your team in one click.
+          - generic [ref=e79]: Live updates
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - heading "Lightning-fast queries" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Query millions of rows in milliseconds. Our optimized pipeline processes your data on the fly so you never have to wait for a dashboard to load or a report to generate.
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - img [ref=e98]
+              - text: Query completed in 47ms
+            - generic [ref=e100]:
+              - generic [ref=e101]: SELECT region, SUM(revenue)
+              - generic [ref=e102]: FROM transactions
+              - generic [ref=e103]: WHEREdate >= '2026-01-01'
+              - generic [ref=e104]: → 8,432 rows returned in 47ms
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - heading "Smart alerts & notifications" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Set up custom alerts for any metric. Get notified via email, Slack, or webhook when your data crosses a threshold — before it becomes a problem.
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: Revenue drop detected
+              - text: 2m ago
+            - generic [ref=e118]:
+              - generic [ref=e119]: Daily active users hit 10K
+              - text: 15m ago
+            - generic [ref=e120]:
+              - generic [ref=e121]: New integration ready
+              - text: 1h ago
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - img [ref=e125]
+            - heading "Team collaboration" [level=3] [ref=e130]
+            - paragraph [ref=e131]: Share dashboards, annotate charts, and discuss insights right where your data lives. Role-based access means the right people see the right information.
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: JD
+              - generic [ref=e136]: AK
+              - generic [ref=e137]: ML
+              - generic [ref=e138]: TR
+              - text: 4 online now
+            - generic [ref=e139]:
+              - generic [ref=e140]: "JD: Revenue is up 12% this week 🎉"
+              - generic [ref=e141]: "AK: Mostly from the EU region"
+              - generic [ref=e142]: ML:Let's dig into the dashboard
+    - generic [ref=e329]:
+      - generic [ref=e330]:
+        - heading "See your data in action" [level=2] [ref=e331]
+        - paragraph [ref=e332]: A live preview of what your dashboard will look like.
+      - generic [ref=e333]:
+        - generic [ref=e335]:
+          - img [ref=e336]
+          - text: app.vieent.com/dashboard
+        - navigation [ref=e342]:
+          - button "Overview" [ref=e343]:
+            - img [ref=e344]
+            - text: Overview
+          - button "Royalties" [ref=e346]:
+            - img [ref=e347]
+            - text: Royalties
+          - button "Analytics" [ref=e349]:
+            - img [ref=e350]
+            - text: Analytics
+        - generic [ref=e355]:
+          - generic [ref=e356]:
+            - generic [ref=e357]:
+              - img [ref=e358]
+              - paragraph [ref=e360]: 1.3M
+              - paragraph [ref=e361]: Total Streams
+            - generic [ref=e362]:
+              - img [ref=e363]
+              - paragraph [ref=e365]: $5.1K
+              - paragraph [ref=e366]: Total Revenue
+            - generic [ref=e367]:
+              - img [ref=e368]
+              - paragraph [ref=e371]: 70%
+              - paragraph [ref=e372]: Engagement
+            - generic [ref=e373]:
+              - img [ref=e374]
+              - paragraph [ref=e376]: 46.5K
+              - paragraph [ref=e377]: Peak Listeners
+          - heading "Monthly Streams" [level=4] [ref=e379]
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - heading "Top Regions" [level=4] [ref=e382]
+              - generic [ref=e383]:
+                - generic [ref=e385]:
+                  - text: North America
+                  - generic [ref=e386]: 38%
+                - generic [ref=e388]:
+                  - text: Europe
+                  - generic [ref=e389]: 28%
+                - generic [ref=e391]:
+                  - text: Asia Pacific
+                  - generic [ref=e392]: 18%
+                - generic [ref=e394]:
+                  - text: Latin America
+                  - generic [ref=e395]: 11%
+                - generic [ref=e397]:
+                  - text: Other
+                  - generic [ref=e398]: 5%
+            - generic [ref=e399]:
+              - heading "Top Tracks" [level=4] [ref=e400]
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - generic [ref=e403]:
+                    - paragraph [ref=e404]: Midnight Waves
+                    - paragraph [ref=e405]: Luna Ray
+                  - generic [ref=e406]:
+                    - paragraph [ref=e407]: 12.5K
+                    - paragraph [ref=e408]: +8.2%
+                - generic [ref=e409]:
+                  - generic [ref=e410]:
+                    - paragraph [ref=e411]: Electric Dreams
+                    - paragraph [ref=e412]: Neon Pulse
+                  - generic [ref=e413]:
+                    - paragraph [ref=e414]: 9.9K
+                    - paragraph [ref=e415]: +12.1%
+                - generic [ref=e416]:
+                  - generic [ref=e417]:
+                    - paragraph [ref=e418]: Golden Hour
+                    - paragraph [ref=e419]: Solstice
+                  - generic [ref=e420]:
+                    - paragraph [ref=e421]: 8.5K
+                    - paragraph [ref=e422]: "-3.4%"
+                - generic [ref=e423]:
+                  - generic [ref=e424]:
+                    - paragraph [ref=e425]: Crystal Clear
+                    - paragraph [ref=e426]: Aurora
+                  - generic [ref=e427]:
+                    - paragraph [ref=e428]: 7.2K
+                    - paragraph [ref=e429]: +5.7%
+                - generic [ref=e430]:
+                  - generic [ref=e431]:
+                    - paragraph [ref=e432]: Urban Flow
+                    - paragraph [ref=e433]: Mosaic
+                  - generic [ref=e434]:
+                    - paragraph [ref=e435]: 6.5K
+                    - paragraph [ref=e436]: +1.2%
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - heading "Trusted by data-driven teams" [level=2] [ref=e146]
+        - paragraph [ref=e147]: See what our customers are saying about Vieent.
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - img [ref=e151]
+            - paragraph [ref=e154]: “Vieent transformed how we look at our data. We went from monthly reports to real-time decisions. The dashboard is incredibly intuitive.”
+          - generic [ref=e155]:
+            - generic [ref=e156]: SC
+            - generic [ref=e157]:
+              - paragraph [ref=e158]: Sarah Chen
+              - paragraph [ref=e159]: Head of Analytics, Streamline Inc.
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - img [ref=e162]
+            - paragraph [ref=e165]: “We've seen a 40% increase in team productivity since switching to Vieent. The collaboration features alone are worth it.”
+          - generic [ref=e166]:
+            - generic [ref=e167]: MR
+            - generic [ref=e168]:
+              - paragraph [ref=e169]: Marcus Rivera
+              - paragraph [ref=e170]: CTO, DataForge
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - img [ref=e173]
+            - paragraph [ref=e176]: “Finally, an analytics platform that doesn't require a data science degree. We had our first dashboard live in under 10 minutes.”
+          - generic [ref=e177]:
+            - generic [ref=e178]: EN
+            - generic [ref=e179]:
+              - paragraph [ref=e180]: Emily Nakamura
+              - paragraph [ref=e181]: Product Manager, GrowthLoop
+    - generic [ref=e183]:
+      - paragraph [ref=e184]: Trusted by innovative companies worldwide
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e187]: S
+          - text: Streamline
+        - generic [ref=e188]:
+          - generic [ref=e189]: D
+          - text: DataForge
+        - generic [ref=e190]:
+          - generic [ref=e191]: G
+          - text: GrowthLoop
+        - generic [ref=e192]:
+          - generic [ref=e193]: "N"
+          - text: NexusAI
+        - generic [ref=e194]:
+          - generic [ref=e195]: P
+          - text: PulseMetrics
+        - generic [ref=e196]:
+          - generic [ref=e197]: C
+          - text: CloudSync
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - heading "Latest from our blog" [level=2] [ref=e202]
+          - paragraph [ref=e203]: Insights on data analytics, product updates, and best practices.
+        - link "View all posts" [ref=e204] [cursor=pointer]:
+          - /url: /blog
+          - text: View all posts
+          - img [ref=e205]
+      - generic [ref=e207]:
+        - link "Data AnalyticsStrategy Why Data-Driven Decisions Matter More Than Ever in 2026 With AI transforming every industry, companies that leverage real-time data insights are pulling ahead. Here's how to stay competitive. Alex Mercer 4 min read" [ref=e209] [cursor=pointer]:
+          - /url: /blog/data-driven-decisions-2026
+          - generic [ref=e210]: Data AnalyticsStrategy
+          - heading "Why Data-Driven Decisions Matter More Than Ever in 2026" [level=3] [ref=e211]
+          - paragraph [ref=e212]: With AI transforming every industry, companies that leverage real-time data insights are pulling ahead. Here's how to stay competitive.
+          - generic [ref=e213]:
+            - text: Alex Mercer·
+            - img [ref=e214]
+            - text: 4 min read
+        - link "DesignBest Practices 5 Principles for Building Effective Dashboards Great dashboards don't just show data — they tell a story. Learn the design principles that make analytics tools people actually want to use. Emily Nakamura 5 min read" [ref=e218] [cursor=pointer]:
+          - /url: /blog/building-effective-dashboards
+          - generic [ref=e219]: DesignBest Practices
+          - heading "5 Principles for Building Effective Dashboards" [level=3] [ref=e220]
+          - paragraph [ref=e221]: Great dashboards don't just show data — they tell a story. Learn the design principles that make analytics tools people actually want to use.
+          - generic [ref=e222]:
+            - text: Emily Nakamura·
+            - img [ref=e223]
+            - text: 5 min read
+        - 'link "AITrends The Future of Real-Time Analytics: AI, Automation & Beyond From AI-powered anomaly detection to automated alerting, the next generation of analytics tools is reshaping how businesses operate. Marcus Rivera 4 min read" [ref=e227] [cursor=pointer]':
+          - /url: /blog/future-of-real-time-analytics
+          - generic [ref=e228]: AITrends
+          - 'heading "The Future of Real-Time Analytics: AI, Automation & Beyond" [level=3] [ref=e229]'
+          - paragraph [ref=e230]: From AI-powered anomaly detection to automated alerting, the next generation of analytics tools is reshaping how businesses operate.
+          - generic [ref=e231]:
+            - text: Marcus Rivera·
+            - img [ref=e232]
+            - text: 4 min read
+      - link "View all posts" [ref=e236] [cursor=pointer]:
+        - /url: /blog
+        - text: View all posts
+        - img [ref=e237]
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "Get early access" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Ready to transform your data? Sign up and we'll be in touch.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - text: Don't fill this
+          - textbox [ref=e247]
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - text: Name
+            - textbox "Name" [ref=e250]:
+              - /placeholder: Your name
+          - generic [ref=e251]:
+            - text: Email
+            - textbox "Email" [ref=e252]:
+              - /placeholder: you@example.com
+          - generic [ref=e253]:
+            - text: Message
+            - textbox "Message" [ref=e254]:
+              - /placeholder: Tell us about your use case...
+          - button "Send message" [ref=e255]:
+            - img [ref=e256]
+            - text: Send message
+          - paragraph [ref=e259]: No spam, ever. We'll only use your info to follow up.
+  - contentinfo [ref=e260]:
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - generic [ref=e263]:
+          - link "V Vieent" [ref=e264] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e265]: V
+            - text: Vieent
+          - paragraph [ref=e266]: Modern analytics platform for real-time insights, beautiful dashboards, and data-driven decisions.
+          - generic [ref=e267]:
+            - link "GitHub" [ref=e268] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e269]
+            - link "Twitter" [ref=e273] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e274]
+            - link "LinkedIn" [ref=e276] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e277]
+            - link "Email" [ref=e280] [cursor=pointer]:
+              - /url: mailto:hello@vieent.com
+              - img [ref=e281]
+        - generic [ref=e284]:
+          - heading "Product" [level=4] [ref=e285]
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - link "Features" [ref=e288] [cursor=pointer]:
+                - /url: "#features"
+            - listitem [ref=e289]:
+              - link "Dashboard" [ref=e290] [cursor=pointer]:
+                - /url: "#dashboard"
+            - listitem [ref=e291]:
+              - link "Pricing" [ref=e292] [cursor=pointer]:
+                - /url: "#pricing"
+            - listitem [ref=e293]:
+              - link "Testimonials" [ref=e294] [cursor=pointer]:
+                - /url: "#testimonials"
+        - generic [ref=e295]:
+          - heading "Company" [level=4] [ref=e296]
+          - list [ref=e297]:
+            - listitem [ref=e298]:
+              - link "Blog" [ref=e299] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e300]:
+              - link "About" [ref=e301] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e302]:
+              - link "Careers" [ref=e303] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e304]:
+              - link "Contact" [ref=e305] [cursor=pointer]:
+                - /url: "#signup"
+        - generic [ref=e306]:
+          - heading "Resources" [level=4] [ref=e307]
+          - list [ref=e308]:
+            - listitem [ref=e309]:
+              - link "Documentation" [ref=e310] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e311]:
+              - link "API Reference" [ref=e312] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e313]:
+              - link "Help Center" [ref=e314] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e315]:
+              - link "Status" [ref=e316] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e317]:
+          - heading "Legal" [level=4] [ref=e318]
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - link "Privacy Policy" [ref=e321] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e322]:
+              - link "Terms of Service" [ref=e323] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e324]:
+              - link "Cookie Policy" [ref=e325] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e326]: © 2026 Vieent. All rights reserved.
+  - alert [ref=e327]

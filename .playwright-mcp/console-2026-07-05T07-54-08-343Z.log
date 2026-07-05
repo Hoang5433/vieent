@@ -1,0 +1,10 @@
+[    2348ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rZ (https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:36737)
+    at rJ (https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:37770)
+    at https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:132299
+    at sy (https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:137461)
+    at sh (https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:128709)
+    at https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:123534
+    at sr (https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:123635)
+    at sq (https://vieent.vercel.app/_next/static/chunks/4bd1b696-215e5051988c3dde.js:1:150205)
+    at MessagePort.A (https://vieent.vercel.app/_next/static/chunks/794-8c4290e7444af450.js:1:48890)

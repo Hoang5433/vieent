@@ -144,7 +144,10 @@ function RoyaltiesTab() {
                   border: "1px solid #e2e8f0",
                   boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
                 }}
-                formatter={(value: number) => [`$${value.toFixed(2)}`, "Revenue"]}
+                formatter={(value) => {
+                  const v = Number(value) || 0;
+                  return [`$${v.toFixed(2)}`, "Revenue"];
+                }}
               />
               <Line
                 type="monotone"
@@ -173,7 +176,10 @@ function RoyaltiesTab() {
                   border: "1px solid #e2e8f0",
                   boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
                 }}
-                formatter={(value: number) => [`${(value * 100).toFixed(1)}%`, "Rate"]}
+                formatter={(value) => {
+                  const v = Number(value) || 0;
+                  return [`${(v * 100).toFixed(1)}%`, "Rate"];
+                }}
               />
               <Line
                 type="monotone"
