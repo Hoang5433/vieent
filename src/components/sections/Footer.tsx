@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail } from "lucide-react";
+import { Code2, MessageCircle, Briefcase, Mail } from "lucide-react";
 import Container from "@/components/ui/Container";
 
 const footerLinks = {
@@ -28,9 +28,9 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Code2, href: "#", label: "GitHub" },
+  { icon: MessageCircle, href: "#", label: "Twitter" },
+  { icon: Briefcase, href: "#", label: "LinkedIn" },
   { icon: Mail, href: "mailto:hello@vieent.com", label: "Email" },
 ];
 
